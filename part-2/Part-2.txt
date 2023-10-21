@@ -1,0 +1,44 @@
+1.	Kapan kita harus menggunakan relational database atau nosql database ?
+    Pertimbangkan penggunaan relational database saat :
+        1. Volume beban kerja umumnya cocok dalam ribuan transaksi per detik
+        2. Data sangat terstruktur dan memerlukan integritas referensial
+        3. Hubungan dinyatakan melalui gabungan tabel pada model data yang dinormalisasi
+        4. Pengambilan datanya bekerja dengan kueri dan laporan yang kompleks
+        5. Data biasanya terpusat, atau dapat direplikasi secara asinkron
+    Pertimbangkan pengunaan NoSQL saat:
+        1. Memiliki beban kerja volume tinggi yang memerlukan latensi yang dapat diprediksi dalam skala besar 
+        2. Data bersifat dinamis dan sering berubah
+        3. Hubungan dapat berupa model data yang dinormalisasi
+        4. Pengambilan datanya sederhana dan dinyatakan tanpa gabungan tabel
+        5. Data biasanya direplikasi di seluruh geografis dan memerlukan kontrol yang lebih baik atas konsistensi, ketersediaan, dan performa
+
+2.	Apa perbedaan antara database, data lake, data warehouse, dan data mart ?
+    • Database adalah lokasi penyimpanan data terkait yang digunakan untuk menangkap situasi tertentu. 
+        Karakteristik :
+        1.	Terstruktur sesuai dengan operasi dan aplikasi perusahaan
+        2.	Aturan kaku yang ditetapkan seputar penyimpanan/organisasi data (khusus RDBMS)
+        3.	Penyimpanan data fleksibel (khusus NoSQL)
+        4.	Tujuan tunggal dalam sifatnya: menangani satu proses (misalnya, POS)
+        5.	Kemampuan pencatatan data, menangkap transaksi saat terjadi dan menampung transaksi tersebut
+    • Data lake adalah repositori terpusat yang dirancang untuk menyimpan, memproses, dan mengamankan sejumlah besar data semi-terstruktur dan tidak terstruktur.
+        Karakteristik :
+        1.	Mengumpulkan semua data dari banyak sumber data yang berbeda dalam jangka waktu yang lama
+        2.	Diunggah tanpa metodologi yang ditetapkan
+        3.	Memenuhi kebutuhan berbagai pengguna dalam organisasi
+    • Data warehouse adalah sistem perusahaan yang digunakan untuk analisis dan pelaporan data terstruktur dan semi terstruktur dari berbagai sumber seperti transaksi tempat penjualan, otomatisasi pemasaran, manajemen hubungan pelanggan, dan banyak lagi
+        Karakteristik :
+        1.	Menyimpan data historis dalam jumlah besar sehingga data lama tidak dihapus saat data baru diperbarui
+        2.	Menangkap data dari beberapa database yang berbeda
+        3.	Bekerja dengan ODS untuk menampung data yang dinormalisasi dan dibersihkan
+        4.	Sumber utama untuk analisis data
+    • Data mart adalah bagian dari gudang data yang berfokus pada lini bisnis, departemen, atau bidang subjek tertentu
+        Karakteristik :
+        1.	Data terbatas cakupannya
+        2.	Berfokus pada satu materi pelajaran atau unit bisnis
+        3.	Bertindak sebagai gudang data mini, memegang data agregat
+
+3.	Jelaskan apa itu normalisasi database, dan normalisasikan tabel dibawah !
+    Normalisasi Database adalah proses pengelompokan atribut data yang membentuk entitas sederhana, nonredundan, fleksibel, dan mudah beradaptasi, Sehingga dapat dipastikan bahwa database yang dibuat berkualitas baik.
+
+ 
+ 

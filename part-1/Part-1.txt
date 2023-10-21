@@ -1,0 +1,21 @@
+1. Apa peran utama seorang Data Engineer dalam ekosistem data? Bagaimana peran ini berbeda dari Data Scientist dan Data Analyst? 
+	Tugas utama Data engineer adalah merancang, membangun, dan memelihara infrastruktur teknologi yang diperlukan untuk mengumpulkan, menyimpan, dan mengelola data dalam skala besar.
+	Sedangkan perbedaannya dapat dijelaskan sbg berikut :
+	• Data Engineer adalah seseorang yang menyiapkan data dari berbagai sumber informasi dengan membangun struktur data agar mempermudah perusahaan untuk mengakses.
+	• Data Scientist adalah seseorang yang mengelola data untuk mendapatkan insights agar dapat dimanfaatkan perusahaan.
+	• Data Analyst adalah seseorang yang melakukan analisa dan riset tertentu di berbagai tools dan platform, hasilnya akan dibuat untuk pengambilan keputusan perusahaan.
+
+2.Berikan beberapa contoh peran dari seorang Data Engineer yang mungkin bersinggungan atau bahkan sama dengan peran Data Scientist dan Data Analyst !
+	Peran dari seorang Data Engineer yang mungkin bersinggungan atau bahkan sama dengan peran Data Scientist dan Data Analyst adalah seorang Data Engineer dapat mengolah data lake menggunakan machine learning yang seharusnya bisa dilakukan oleh Data Scientist serta seorang Data Engineer dapat melalukan perancangan dan pemeliharaan data database yang bisa dilakukan oleh Data Analyst.
+
+3.Jelaskan langkah-langkah proses ETL dan ELT yang berperan dalam pekerjaan seorang data engineer !
+	Berikut adalah langkah-langkah dalam proses ETL:
+	• Data diekstraksi dari berbagai sumber data, baik itu sumber data homogen maupun heterogen.
+	• Data dipindahkan ke staging area. Di sini data dibersihkan dan ditransformasi ke format yang dibutuhkan.
+	• Data diunggah ke data warehouse dalam format yang siap untuk dianalisis.
+
+	Berikut adalah proses kerja metode ELT:
+	• Pertama, sama seperti proses ETL, data diekstraksi dari berbagai sumber.
+	• Setelah itu, alih-alih terjadi data transformation di staging area, data justru langsung disimpan ke data warehouse.
+	• Di dalam data warehouse, data disimpan sekaligus ditransformasi, dibersihkan, dan diperkaya.
+
